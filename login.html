@@ -7,12 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="css/login.cssess-" type="text/css" rel="stylesheet">
+    <link href="css/login.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid">
-        <h1 id="log-in">Log In</h1>
+        <nav class="nav navbar-expand-lg">
+            <a href="index.html" class="back-2-home">Back to Home</a>
+        </nav>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <h1 class="display-4">Login</h1>
+            </div>
+            <!--end col-->
+            <div class="col-3"></div>
+        </div>
+        <!--end row-->
+
+        <form>
+            <div class="form-row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+
+            <div class="form-row">
+                <div class="col-4"></div>
+                <div class="col-4" id="name-form">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="name" class="form-control" id="exampleName">
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+
+            <div class="form-row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary btn-lg btn-custom-lg rounded-0">Login</button>
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+        </form>
+
 </body>
 
 </html>
