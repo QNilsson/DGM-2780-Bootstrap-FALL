@@ -75,13 +75,6 @@ nav ul li ul.sub-nav {
     cursor: pointer;
 }
 
-#centerLogIn {
-    justify-content: center;
-    margin-left: 275px;
-    margin-right: 150px;
-    margin-bottom: 100px;
-    align-content: center;
-}
 
 .top-buffer {
     margin-top: 20px;

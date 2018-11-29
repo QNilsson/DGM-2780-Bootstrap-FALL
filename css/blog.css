@@ -21,3 +21,7 @@ h3{
     display:inline-block; 
     position:relative;
 }
+.page-footer {
+    background-color: navy;
+    color: white;
+}
