@@ -88,6 +88,9 @@ h3 {
     padding-top: 15px;
 }
 
+.zoom{
+    box-shadow: #FF0000;
+}
 #centerPar {
     text-align: center;
     padding-top: 15px;
