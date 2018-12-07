@@ -73,6 +73,11 @@ nav ul li ul.sub-nav {
 
 #kitty {
     cursor: pointer;
+    
+}
+
+#catPic{
+    border: 2px solid pink;
 }
 
 
